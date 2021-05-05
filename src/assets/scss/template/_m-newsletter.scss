@@ -20,26 +20,40 @@ a {
   }
 
   .contacts {
-    
+    vertical-align: middle;
+
     .contact {
       color: #f29709;
-  
+
       &.phone {
         font-weight: 700;
         font-size: 16px;
         margin-bottom: 2px;
       }
-  
+
       &.email {
         text-decoration: underline;
       }
-  
+
       .icon {
         width: 15px;
         display: inline-block;
         padding-right: 10px;
       }
     }
+  }
+}
+
+table.m-menu th.menu-item {
+  font-size: 13px;
+  font-weight: lighter;
+
+   a {
+    color: #fff;
+    background-color: #0090d9;
+    padding: 5px 10px;
+    border-radius: 5px;
+
   }
 }
 
@@ -50,14 +64,92 @@ a {
 }
 
 .content {
-h1 {
-  color: #19181b;
-  font-weight: bold;
-  font-size: 24px;
+  h1 {
+    color: #19181b;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.4;
+
+    a {
+      text-decoration: underline;
+    }
+
+    .promo {
+      text-decoration: underline;
+      font-weight: bold;
+      color: #fff;
+      background-color: #f29809;
+      padding: 3px;
+    }
+  }
+
+  .button {
+    width: 230px;
+  }
+
+  .the-end {
+    color: #8d959a;
+    font-size: 18px;
+    font-weight: bold;
+    span {
+      color: #ff9801;
+      font-weight: lighter;
+    }
+  }
 }
 
-p {
-  font-size: 14px;
-  line-height: 1.4;
+.secondary {
+  .footer {
+    .m-logo {
+      vertical-align: middle;
+      img {
+        width: 150px;
+      }
+    }
+  
+    h6 {
+      font-weight: bold;
+    }
+  
+    .adress {
+      font-size: 12px;
+    }
+
+    .contact {
+      .icon {
+        width: 12px;
+    display: inline-block;
+    padding-right: 10px;
+      }
+
+      &.phone, &.email {
+          a {
+            font-size: 14px;
+          }
+      }
+    }
+
+    .social-h {
+      color: #8b969c;
+      margin-bottom: 0;
+    }
+
+    .social-icons {
+      img {
+        width: 35px;
+      }
+    }
+  }
 }
+
+.copyright {
+  font-size: 12px;
+}
+
+table img.sert-logo {
+  width: 130px;
 }
