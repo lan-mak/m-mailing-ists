@@ -87,10 +87,6 @@ table.m-menu th.menu-item {
     }
   }
 
-  .button {
-    width: 230px;
-  }
-
   .the-end {
     color: #8d959a;
     font-size: 18px;
@@ -99,6 +95,12 @@ table.m-menu th.menu-item {
       color: #ff9801;
       font-weight: lighter;
     }
+  }
+}
+
+table.button {
+  img {
+    width: 235px;
   }
 }
 
