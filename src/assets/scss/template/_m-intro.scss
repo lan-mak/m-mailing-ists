@@ -2,18 +2,7 @@ p {
   &.intro {
     &.name {
       font-size: 16px;
-      span {
-        font-size: 16px;
-        font-weight: bold;
-      }
-    }
-
-    &.text {
-      span {
-        font-weight: bold;
-        text-decoration: underline;
-        text-decoration-color: #f29400;
-      }
+      font-weight: bold;
     }
   }
 }
