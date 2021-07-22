@@ -17,6 +17,12 @@ a {
     color: #949494;
     font-size: 10.5px;
     margin-top: 2px;
+
+    &_eng {
+      color: #949494;
+      font-size: 15px;
+      margin-top: 2px;
+    }
   }
 
   .contacts {
@@ -50,7 +56,7 @@ table.m-menu th.menu-item {
   padding-top: 10px;
   padding-bottom: 10px;
 
-   a {
+  a {
     color: #fff;
     background-color: #0090d9;
     padding: 5px 10px;
@@ -94,6 +100,7 @@ table.m-menu th.menu-item {
     color: #8d959a;
     font-size: 18px;
     font-weight: bold;
+
     span {
       color: #ff9801;
       font-weight: lighter;
@@ -111,15 +118,16 @@ table.button {
   .footer {
     .m-logo {
       vertical-align: middle;
+
       img {
         width: 150px;
       }
     }
-  
+
     h6 {
       font-weight: bold;
     }
-  
+
     .adress {
       font-size: 12px;
     }
@@ -127,14 +135,15 @@ table.button {
     .contact {
       .icon {
         width: 12px;
-    display: inline-block;
-    padding-right: 10px;
+        display: inline-block;
+        padding-right: 10px;
       }
 
-      &.phone, &.email {
-          a {
-            font-size: 14px;
-          }
+      &.phone,
+      &.email {
+        a {
+          font-size: 14px;
+        }
       }
     }
 

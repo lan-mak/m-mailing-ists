@@ -1,0 +1,46 @@
+table.digest {
+    .content {
+
+        h1.fr {
+            font-size: 24px;
+        }
+
+        span {
+            font-weight: normal;
+            font-size: 18px;
+            color: #949494;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    }
+
+    .list_post {
+        h2{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+
+    h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
+        color: #ff9500;
+    }
+
+    p.more {
+        font-size: 12px;
+        margin-bottom: 0;
+        Margin-bottom: 0;
+
+        a {
+            color: #147dc2;
+
+            &:visited {
+                color: #0090D9;
+            }
+        }
+    }
+
+
+}
