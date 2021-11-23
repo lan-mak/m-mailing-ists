@@ -4,15 +4,15 @@
         width: 80%;
     }
 
-    th.columns.first{
-        vertical-align: middle;
-        //  padding-bottom: 0;
-    }
+    // th.columns.first{
+    //     vertical-align: middle;
+    //     //  padding-bottom: 0;
+    // }
 
-    th.columns.last{
-        vertical-align: middle;
-        //  padding-bottom: 0;
-    }
+    // th.columns.last{
+    //     vertical-align: middle;
+    //     //  padding-bottom: 0;
+    // }
 
     @media only screen and (max-width: #{$global-breakpoint}) {
         th.columns.first{
